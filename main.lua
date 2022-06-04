@@ -371,7 +371,6 @@ extra3:NewButton("Crash Server", "SAVE BEFORE CRASH", function()
         Icon = ""; 
         Duration = 15;
     })
-    game:GetService("Players").LocalPlayer.PlayerGui.Inventory.Frame1.PVP.HP:FireServer(math.huge, math.huge)
     wait(1)
     for i=0, 45000 do
         game:GetService("Players").LocalPlayer.PlayerGui.Crafting.Shop.MiscShop.Jeep.Buy.Spawn:FireServer()
