@@ -3,7 +3,7 @@
 
 game.StarterGui:SetCore("SendNotification", {
     Title = "Notification";
-    Text = "Note: Admins are active in the game.";
+    Text = "Note: Admins are active in the game.\nRecommened to use Anti-Admins";
     Icon = ""; 
     Duration = 15;
 })
