@@ -1,6 +1,13 @@
 --GAME: https://www.roblox.com/games/3403279477/Creeper-Aw-man-2-15-Part-1
 --https://github.com/IWillyLovePython/roblox/README.md
 
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Notification";
+    Text = "Note: Admins are active in the game.";
+    Icon = ""; 
+    Duration = 15;
+})
+
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Creeper? Aw man | Hack Panel", "Ocean")
 
@@ -152,17 +159,13 @@ end)
 
 stats2:NewTextBox("Make RiftOffer Bag", "Press Backspace to give (MUST HAVE ENOUGH)", function(amount)
     game:GetService("Players").LocalPlayer.PlayerGui.Crafting.Inventory.Visible = true
-    wait()
     game:GetService("Players").LocalPlayer.PlayerGui.Crafting.Inventory.Salvage.BagCreate.Create.BeginCheck:FireServer("1001", amount)
-    wait()
     game:GetService("Players").LocalPlayer.PlayerGui.Crafting.Inventory.Visible = false
 end)
 
 stats2:NewTextBox("Make EndToken Bag", "Press Backspace to give (MUST HAVE ENOUGH)", function(amount)
     game:GetService("Players").LocalPlayer.PlayerGui.Crafting.Inventory.Visible = true
-    wait()
     game:GetService("Players").LocalPlayer.PlayerGui.Crafting.Inventory.Salvage.BagCreate.Create.BeginCheck:FireServer("1000", amount)
-    wait()
     game:GetService("Players").LocalPlayer.PlayerGui.Crafting.Inventory.Visible = false
 end)
 
@@ -364,7 +367,7 @@ extra3:NewButton("Destroy All Blocks", "", function()
     end
 end)
 
-extra3:NewButton("Crash Server", "SAVE BEFORE CRASH", function()
+extra3:NewButton("Crash Server (PATCHED)", "SAVE BEFORE CRASH", function()
     game.StarterGui:SetCore("SendNotification", {
         Title = "Notification";
         Text = "Do Not Leave, Stay Until You're Disconnected to Fully Crash Everyone";
