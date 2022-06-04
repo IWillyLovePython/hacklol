@@ -1,7 +1,7 @@
 # Cool Script
 ## Script:  
 ```lua
-loadstring(game:HttpGet("https://raw.githubusercontent.com/IWillyLovePython/ez/main/main.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IWillyLovePython/hacklol/main/main.lua"))()
 ```
 
 ## Game:
