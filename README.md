@@ -1,11 +1,11 @@
 # Cool Script
 ## Script:  
 ```lua
-loadstring(game:HttpGet("https://raw.githubusercontent.com/IWillyLovePython/hacklol/main/main.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IWillyLovePython/BatonRougeRPAdmin/main/main.lua"))()
 ```
 
 ## Game:
-**https://www.roblox.com/games/3403279477/Creeper-Aw-man-2-15-Part-1**
+**https://www.roblox.com/games/7536094070/Baton-Rouge-RP-Massive-Unban-Wave**
 
 ## Credits
 **Discord:** Dreamer#5114  
